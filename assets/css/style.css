@@ -52,9 +52,14 @@ li {
 
 
 /* main */
-.icon {
-    width: 15%;
-    margin: 4% 0;
+.icon_yellow, .icon_green {
+    width: 12%;
+    margin: 4% 0 14% 0;
+}
+
+.icon_rose {
+    width: 12%;
+    margin: -4% 0 5% 0;
 }
 
 span {
@@ -74,7 +79,7 @@ main, footer {
 }
 
 main .stillBg {
-    height: 700vh;
+    height: 468vh;
     
 }
 
@@ -115,8 +120,14 @@ p {
 h1.yellow, h1.rose, h1.green {
     font-size: 15rem;
 }
+
+h1.rose {
+    margin: 0 0 -10% 0;
+}
+
 h2.yellow, h2.rose, h2.green {
     font-size: 4.3rem;
+    margin: 0 0 1% 0;
 }
 
 .yellow {
@@ -132,7 +143,11 @@ h2.yellow, h2.rose, h2.green {
 
 
 main article:nth-of-type(1n + 4) {
-    padding: 15% 0;
+    padding: 15% 0 5% 0;
+}
+
+.icon:nth-of-type(2) {
+    margin: 4% 0 6% 0;
 }
 
 main article:nth-of-type(7) {
@@ -142,11 +157,13 @@ main article:nth-of-type(7) {
 
 section.family {
     background: url(../img/see.png) no-repeat center/cover;
-    height: 120vh;
+    height: 130vh;
+    width: 100vw;
 }
 
 main img {
     width: 100%;
+
     margin: -4% 20% 0 0;
     
 }
