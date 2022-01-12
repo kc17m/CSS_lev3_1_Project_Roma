@@ -33,13 +33,14 @@ Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
 li { 
     display: inline-block;
     padding: 0 5% 0 5%;
+    letter-spacing: 3px;
 }
 
  header nav a {
     font-family: Roboto;
     color: #fff; 
     text-decoration:none;
-    padding: 0 0 0.5% 0;
+    padding: 0 0 1.5% 0;
     font-size: 1.5rem;
     border-bottom: 1px solid #e7bc0e ;
         
@@ -52,16 +53,18 @@ li {
 
 /* main */
 .icon {
-    width: 5%;
-    margin: 3% 0;
+    width: 15%;
+    margin: 4% 0;
 }
 
 span {
     color: #fff;
+    background-color: #000;
+    padding: 0.2%;
 }
 
 .stillBg {
-    background: url(../img/cleo-topper.jpg) no-repeat top/100vw 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../img/cleo-topper.jpg) no-repeat top/129vw 100vh;
     background-attachment: fixed;
         
 }
@@ -99,7 +102,7 @@ h1.firstPage {
 }
 
 .green p {
-    padding: 0 0 50% 0;
+    padding: 0 25% 17% 9% ;
 }
 
 p {
@@ -110,10 +113,10 @@ p {
 
 
 h1.yellow, h1.rose, h1.green {
-    font-size: 7rem;
+    font-size: 15rem;
 }
 h2.yellow, h2.rose, h2.green {
-    font-size: 3rem;
+    font-size: 4.3rem;
 }
 
 .yellow {
