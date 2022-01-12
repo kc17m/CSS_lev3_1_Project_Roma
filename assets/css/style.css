@@ -78,10 +78,10 @@ main, footer {
     font-family: Santio;
 }
 
-main .stillBg {
-    height: 468vh;
+/* main .stillBg {
+    height: 900%;
     
-}
+} */
 
 article {
     margin: 0 9%;
@@ -158,13 +158,14 @@ main article:nth-of-type(7) {
 section.family {
     background: url(../img/see.png) no-repeat center/cover;
     height: 130vh;
-    width: 100vw;
+    
 }
 
-main img {
-    width: 100%;
+main img {    
+    height: 100%;
+    margin: 0 20% 0 -13%;
 
-    margin: -4% 20% 0 0;
+    
     
 }
 
