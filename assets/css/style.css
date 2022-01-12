@@ -1,0 +1,187 @@
+/* Font: Santio bold, Roboto, Tangerine
+
+
+Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: Santio;
+    src: url(../fonts/SANTIO/TTF/Santio\ Bold.ttf);
+}
+/* donate */
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+/* scroll */
+@font-face {
+    font-family: Tangerine;
+    src: url(../fonts/Tangerine/Tangerine-Regular.ttf);
+}
+
+
+/* header */
+ header nav {
+     padding: 1% 0 0 87%;
+     
+ }
+
+li { 
+    display: inline-block;
+    padding: 0 5% 0 5%;
+}
+
+ header nav a {
+    font-family: Roboto;
+    color: #fff; 
+    text-decoration:none;
+    padding: 0 0 0.5% 0;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #e7bc0e ;
+        
+}
+
+.heart {
+    width: 1rem;
+}
+
+
+/* main */
+.icon {
+    width: 5%;
+    margin: 3% 0;
+}
+
+span {
+    color: #fff;
+}
+
+.stillBg {
+    background: url(../img/cleo-topper.jpg) no-repeat top/100vw 100vh;
+    background-attachment: fixed;
+        
+}
+
+main, footer {
+    font-family: Santio;
+}
+
+main .stillBg {
+    height: 700vh;
+    
+}
+
+article {
+    margin: 0 9%;
+}
+
+
+h1.firstPage {
+    font-size: 5rem;
+    color: #fff;
+    padding: 10% 53% 0 0;
+}
+
+.learnMore {
+    font-family: Tangerine;
+    font-size: 2rem;
+    color: #e7bc0e;
+    padding: 10% 0 30% 0 ;
+}
+
+
+.green {
+    color: #6bc1a3;
+}
+
+.green p {
+    padding: 0 0 50% 0;
+}
+
+p {
+    font-size: 3.7rem;
+    line-height: 5rem;
+}
+
+
+
+h1.yellow, h1.rose, h1.green {
+    font-size: 7rem;
+}
+h2.yellow, h2.rose, h2.green {
+    font-size: 3rem;
+}
+
+.yellow {
+    color: #e7bc0e;
+}
+
+.rose {
+    color: #cb91b6 ;
+}
+.blue {
+    color: #7eb8e1 ;
+}
+
+
+main article:nth-of-type(1n + 4) {
+    padding: 15% 0;
+}
+
+main article:nth-of-type(7) {
+    padding: 15% 0 0% 7%;
+}
+
+
+section.family {
+    background: url(../img/see.png) no-repeat center/cover;
+    height: 120vh;
+}
+
+main img {
+    width: 100%;
+    margin: -4% 20% 0 0;
+    
+}
+
+
+/* footer  */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer span {
+    color: #6bc1a3;
+}
+
+/* .foot {
+    padding: 2% 5% 20% 0;
+
+} */
+
+footer p {
+    font-size: 6rem;
+    line-height: 8rem;
+    padding: 2% 56% 5% 0;
+}
+
+footer a {
+    font-family: Roboto;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    border: 2px solid #fff;
+    padding: 1% 2%;
+}
+
+footer section > p {
+    font-size: 2rem;
+    text-align: center;
+    padding: 10% 0 0 5%;
+}
