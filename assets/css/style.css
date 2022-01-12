@@ -26,14 +26,14 @@ Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
 
 /* header */
  header nav {
-     padding: 1% 0 0 87%;
+     padding: 1% 0 0 83%;
      
  }
 
 li { 
     display: inline-block;
-    padding: 0 5% 0 5%;
-    letter-spacing: 3px;
+    padding: 0 15% 0 0;
+    letter-spacing: 2px;
 }
 
  header nav a {
@@ -69,24 +69,16 @@ span {
 }
 
 .stillBg {
-    background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../img/cleo-topper.jpg) no-repeat top/129vw 100vh;
-    background-attachment: fixed;
-        
+    background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../img/cleo-topper.jpg) no-repeat fixed top/129vw 100vh;
 }
 
 main, footer {
     font-family: Santio;
 }
 
-/* main .stillBg {
-    height: 900%;
-    
-} */
-
 article {
     margin: 0 9%;
 }
-
 
 h1.firstPage {
     font-size: 5rem;
@@ -210,4 +202,9 @@ footer section > p {
     font-size: 1rem;
     text-align: center;
     padding: 10% 0 0 0%;
+}
+
+footer a:nth-of-type(2) {
+    font-size: 1rem;
+
 }
