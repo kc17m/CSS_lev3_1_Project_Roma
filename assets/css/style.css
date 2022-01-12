@@ -157,15 +157,14 @@ main article:nth-of-type(7) {
 
 section.family {
     background: url(../img/see.png) no-repeat center/cover;
-    height: 130vh;
+    background-color: #fff;
+    height: 140vh;
     
 }
 
-main img {    
+.family img {    
     height: 100%;
-    margin: 0 20% 0 -13%;
-
-    
+    width: 100%;
     
 }
 
@@ -188,8 +187,9 @@ footer span {
 
 footer p {
     font-size: 6rem;
-    line-height: 8rem;
-    padding: 2% 56% 5% 0;
+    line-height: 6rem;
+    padding: 24% 50% 7% 0;
+  
 }
 
 footer a {
@@ -197,12 +197,16 @@ footer a {
     text-decoration: none;
     color: #fff;
     font-size: 2rem;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     padding: 1% 2%;
 }
 
+footer a:hover {
+    box-shadow: 4px 5px;
+}
+
 footer section > p {
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
-    padding: 10% 0 0 5%;
+    padding: 10% 0 0 0%;
 }
