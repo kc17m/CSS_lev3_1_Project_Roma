@@ -150,14 +150,17 @@ main article:nth-of-type(7) {
 
 section.family {
     background: url(../img/see.png) no-repeat center/cover;
-    background-color: #fff;
-    height: 140vh;
+    background-color: #fff;   
     
 }
 
 .family img {    
     height: 100%;
-    width: 100%;
+    width: 110%;
+    margin: -1% auto;
+    padding: 0 10% 0% 0;
+    object-fit: fill;
+
     
 }
 
